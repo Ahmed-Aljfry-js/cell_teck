@@ -1,0 +1,14 @@
+.detailed-info {
+  width: 290px;
+  height: 415px;
+  position: absolute;
+  right: 35px;
+  top: 75px;
+}
+
+
+.detailed-info .lower-info {
+  width: 322px;
+}
+
+

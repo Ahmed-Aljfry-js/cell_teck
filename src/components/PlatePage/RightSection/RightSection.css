@@ -1,0 +1,54 @@
+.plate-right-section {
+  width: 160px;
+  height: 605px;
+
+  background-color: #23608b;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+
+  position: absolute;
+  right: 0;
+}
+.plate-right-section .floor-exit-btn {
+  background-color: white;
+  color: #23608b;
+
+  border: none;
+  border-radius: 5px;
+
+  width: 50px;
+  height: 50px;
+
+  font-size: 25px;
+  font-weight: 900;
+}
+
+.plate-right-section .floor-exit-btn:hover,
+.plate-right-section .floor-nav-btn:hover {
+  cursor: pointer;
+}
+
+.plate-right-section .floor-nav-btn {
+  background-color: #23608b;
+  color: white;
+
+  border: 2px solid white;
+  border-radius: 5px;
+
+  width: 50px;
+  height: 50px;
+
+  font-size: 25px;
+  font-weight: 900;
+}
+
+.plate-right-section .floor-name .floor-letter {
+  display: block;
+  width: 20px;
+  font-size: 31px;
+  color: #a7a7a7;
+  transform: rotate(-90deg);
+}

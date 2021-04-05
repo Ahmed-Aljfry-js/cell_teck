@@ -1,0 +1,26 @@
+.type {
+  display: inline-block;
+
+  width: 100%;
+  height: 25px;
+
+  margin-bottom: 12px;
+  font-size: 13px;
+
+  color: #41413e;
+
+  border: none;
+  background-color: transparent;
+  text-align: left;
+
+  padding-left: 10px;
+}
+
+.type:hover {
+  cursor: pointer;
+}
+
+.type:active {
+  background-color: #3b3b3b;
+  color: #d3d3d3;
+}

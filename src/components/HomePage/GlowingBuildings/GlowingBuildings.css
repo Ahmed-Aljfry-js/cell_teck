@@ -1,0 +1,10 @@
+.glowing-buildings {
+  position: absolute;
+  top: 0;
+  left: 181px;
+
+  width: 781px;
+  height: 573px;
+
+  z-index: 10;
+}

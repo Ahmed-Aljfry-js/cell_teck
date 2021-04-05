@@ -1,0 +1,15 @@
+.buildings-info .floors {
+
+  overflow: auto;
+
+  width: 80px;
+  height: 540px;
+  overflow: auto;
+
+  position: absolute;
+  top: 10px;
+  left: 90px;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+}

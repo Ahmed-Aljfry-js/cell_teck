@@ -1,0 +1,47 @@
+.left-section {
+  position: relative;
+
+  width: 920px;
+  height: 605px;
+
+  background-color: rgba(66, 66, 66, 0);
+}
+
+.left-section img {
+  width: 920px;
+  height: 605px;
+  display: inline-block;
+
+  background-color: rgb(121, 58, 58);
+}
+
+.floor-nav {
+  width: 88px;
+  height: 34px;
+
+  background-color: transparent;
+
+  position: absolute;
+  top: 87px;
+
+  right: 250px;
+}
+
+.floor-nav:hover {
+  cursor: pointer;
+}
+
+.floor-nav:nth-child(2) {
+  top: 456px;
+  right: 721px;
+}
+
+.floor-nav:nth-child(3) {
+  top: 371px;
+  right: 181px;
+}
+
+.floor-nav:last-child {
+  top: 238px;
+  left: 115px;
+}

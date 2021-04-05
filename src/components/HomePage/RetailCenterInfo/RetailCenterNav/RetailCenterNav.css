@@ -1,0 +1,30 @@
+.retail-center-nav {
+  width: 200px;
+  height: 30px;
+  position: absolute;
+  bottom: 0;
+  right: 0px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.retail-center-nav button {
+  border: 1px solid white;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.164);
+  border-radius: 5px;
+  padding: 5px 15px;
+
+  transition: background-color 300ms ease;
+}
+
+.retail-center-nav button:hover
+{
+  cursor: pointer;
+}
+.retail-center-nav button:active
+{
+  background-color: rgba(255, 255, 255, 0.507);
+}

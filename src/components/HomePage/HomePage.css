@@ -1,0 +1,195 @@
+.home-page {
+  background-image: url("./img.png");
+  background-repeat: no-repeat;
+  background-origin: border-box;
+  background-size: contain;
+
+  width: 1080px;
+  height: 609px;
+
+  position: relative;
+}
+
+/* A black cover to make the night effect */
+.cover {
+  width: 100%;
+  height: 100%;
+
+  position: absolute;
+
+  background-color: #000000b0;
+}
+
+/* A class for hiding the elements */
+.hidden.hidden {
+  display: none;
+}
+
+.shown {
+  display: inherit;
+}
+
+.shown-home {
+  display: initial;
+}
+
+/* The styling for the btn which hide the menu list */
+.hide-menu-hidden-btn {
+  background-color: transparent;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 730px;
+  height: 609px;
+  z-index: 30;
+}
+
+/* The Style for Retail Center Pref Info */
+.retail-center-pref-info {
+  width: 425px;
+  height: 375px;
+
+  position: absolute;
+  top: 70px;
+  right: 474px;
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  flex-direction: column;
+  z-index: 20;
+
+}
+
+.retail-center-pref-info span {
+  color: white;
+  margin-bottom: 3px;
+}
+
+.retail-center-pref-info span:first-child {
+  font-size: 35px;
+}
+
+.retail-center-pref-info span:nth-child(2) {
+  font-size: 48px;
+}
+
+.retail-center-pref-info button {
+  width: 80px;
+  height: 30px;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding-right: 5px 15px;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.185);
+
+
+
+  margin-top: 20px;
+
+  transition: background-color 300ms ease;
+
+  margin-bottom: 100px;
+}
+
+.retail-center-pref-info button:hover {
+  cursor: pointer;
+}
+
+.retail-center-pref-info button:active {
+  background-color: rgba(255, 255, 255, 0.384);
+}
+
+
+
+
+
+
+
+
+
+/* The Style for Retail Center Pref Info */
+.residential-pref-info {
+  width: 425px;
+  height: 375px;
+
+  position: absolute;
+  top: 70px;
+  right: 474px;
+
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  flex-direction: column;
+  z-index: 20;
+
+}
+
+.residential-pref-info span {
+  color: white;
+  margin-bottom: 10px;
+}
+
+.residential-pref-info span:first-child {
+  font-size: 25px;
+}
+
+.residential-pref-info span:last-child {
+  font-size: 35px;
+}
+
+.residential-pref-info button {
+  width: 80px;
+  height: 30px;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding-right: 5px 15px;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.185);
+
+  margin-top: 20px;
+
+  transition: background-color 300ms ease;
+
+  margin-bottom: 100px;
+}
+
+.residential-pref-info button:hover {
+  cursor: pointer;
+}
+
+.residential-pref-info button:active {
+  background-color: rgba(255, 255, 255, 0.384);
+}
+
+
+
+
+
+
+
+.sky {
+  width: 1110px;
+  height: 523px;
+
+  position: absolute;
+  top: -66px;
+
+  background-image: url("./photo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.ground {
+  width: 1110px;
+  height: 568px;
+
+  position: absolute;
+  bottom: -113px;
+
+  background-image: url("./photo001.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}

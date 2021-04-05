@@ -1,0 +1,11 @@
+.plate-page {
+    width: 1080px;
+    height: 605px;
+
+    background-color: #23608b;
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}

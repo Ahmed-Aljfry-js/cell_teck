@@ -1,0 +1,23 @@
+.level-wrapper {
+  margin-bottom: 15px;
+}
+
+.level {
+  font-size: 15px;
+  color: #385b76;
+  display: inline-block;
+  width: 78%;
+
+  border: none;
+  background-color: transparent;
+  text-align: left;
+}
+
+.level:hover,
+.level-icon {
+  cursor: pointer;
+}
+
+.level-icon {
+  color: #385b76;
+}

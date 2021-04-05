@@ -1,0 +1,17 @@
+.building-two {
+  position: absolute;
+  bottom: 0;
+  z-index: 1;
+
+  width: 565px;
+  height: 190px;
+}
+
+.building-two-img {
+  width: 565px;
+  height: 192px;
+}
+
+.building-two:hover {
+  cursor: pointer;
+}

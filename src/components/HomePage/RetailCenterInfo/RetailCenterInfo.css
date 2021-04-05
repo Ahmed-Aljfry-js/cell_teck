@@ -1,0 +1,10 @@
+.retail-center-info {
+  position: absolute;
+  top: 7px;
+  left: 30px;
+
+  width: 942px;
+  height: 575px;
+
+  z-index: 3;
+}

@@ -1,0 +1,49 @@
+.lower-info .upper-section {
+  margin-top: 25px;
+  background-color: white;
+  height: 45px;
+
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.lower-info .upper-section .gallery {
+  width: min-content;
+  color: #bbbaba;
+  font-size: 21px;
+}
+
+.view-gallery {
+  color: white;
+  background-color: #23608d;
+  border: none;
+  font-size: 15px;
+  padding: 8px 8px;
+  border-radius: 6px;
+  letter-spacing: 1px;
+}
+
+.lower-section-gallery {
+  height: 240px;
+}
+
+.gallery-img {
+  color: white;
+  background-color: gray;
+
+
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.detailed-info .lower-section .upper-section .gallery {
+    width: min-content;
+    color: #bbbaba;
+    font-size: 35px;
+  }

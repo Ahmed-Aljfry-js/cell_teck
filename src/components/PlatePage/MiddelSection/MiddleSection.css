@@ -1,0 +1,13 @@
+.plate-middle-section {
+    width: 600px;
+    height: 404px;
+    background-color: teal;
+    position: relative;
+    left: 50px;
+}
+
+.plate-middle-section img {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}

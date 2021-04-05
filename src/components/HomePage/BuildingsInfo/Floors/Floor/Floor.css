@@ -1,0 +1,34 @@
+.floor {
+  display: block;
+
+  color: #c4c4c4;
+
+  text-align: center;
+
+  font-size: 11px;
+
+  border: none;
+  background-color: transparent;
+  width: 80px;
+  height: 24px;
+
+  transition: color 400ms ease;
+  transition: background-color 400ms ease;
+}
+
+.floor:active,
+.floor:focus {
+  color: white;
+
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: #c4c4c480;
+}
+
+.floor:hover {
+  cursor: pointer;
+}
+
+.floor:read-only {
+  cursor: pointer;
+}

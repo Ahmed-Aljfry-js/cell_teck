@@ -1,0 +1,32 @@
+.retail-center-upper-info {
+  color: white;
+}
+
+.retail-center-upper-info span {
+  display: inline-block;
+  width: 100%;
+}
+
+.location-name {
+  font-size: 35px;
+}
+
+.building-name {
+  font-size: 45px;
+  margin-top: 5px;
+}
+
+.details {
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.retail-gallery-btn
+{
+  border:none;
+  background-color: #23608b;
+  color: white;
+  padding: 5px 15px;
+  border-radius: 5px;
+  margin-top: 10px;
+}

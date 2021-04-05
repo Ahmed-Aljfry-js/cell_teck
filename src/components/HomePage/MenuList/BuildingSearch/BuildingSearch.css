@@ -1,0 +1,37 @@
+.building-search {
+  padding-top: 10px;
+  padding-left: 5px;
+}
+
+/* Tower search result Button */
+.search-result {
+  width: 85%;
+
+  display: inline-block;
+
+  font-size: 17px;
+  font-weight: 500;
+
+  color: white;
+
+  border: none;
+  background-color: transparent;
+  text-align: left;
+}
+
+.search-result:hover,
+.right-arrow-icon {
+  cursor: pointer;
+}
+
+.right-arrow-icon {
+  color: white;
+}
+
+/* The container which adjust buildings */
+.building-search-container {
+  width: 335px;
+  height: 385px;
+
+  overflow: auto;
+}

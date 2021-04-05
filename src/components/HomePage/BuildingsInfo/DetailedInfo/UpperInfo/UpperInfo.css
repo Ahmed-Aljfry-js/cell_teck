@@ -1,0 +1,23 @@
+.detailed-info > .upper-info {
+  color: white;
+}
+
+.detailed-info .upper-info span {
+  display: inline-block;
+  width: 100%;
+}
+
+.location-name {
+  font-size: 30px;
+}
+
+
+.building-name {
+  font-size: 35px;
+  margin-top: 5px;
+}
+
+.details {
+  font-size: 11px;
+  margin-top: 10px;
+}

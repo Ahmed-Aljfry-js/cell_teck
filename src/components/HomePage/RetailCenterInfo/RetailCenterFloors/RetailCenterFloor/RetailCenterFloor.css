@@ -1,0 +1,38 @@
+.retail-center-floor {
+    display: block;
+  
+    text-align: center;
+  
+    margin-top: 0px;
+    margin-bottom: 10px;
+  
+    font-size: 15px;
+  
+    border: none;
+    background-color: transparent;
+    width: 110px;
+    height: 30px;
+  
+    transition: color 400ms ease;
+    transition: background-color 400ms ease;
+
+    color: white;
+  }
+  
+  .retail-center-floor:active,
+  .retail-center-floor:focus {
+    color: white;
+  
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: #c4c4c480;
+  }
+  
+  .retail-center-floor:hover {
+    cursor: pointer;
+  }
+  
+  .retail-center-floor:read-only {
+    cursor: pointer;
+  }
+  

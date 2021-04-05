@@ -1,0 +1,50 @@
+.office-pref-info {
+  width: 358px;
+  height: 200px;
+
+
+  position: absolute;
+  top: 200px;
+  right: 0px;
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  z-index: 20;
+}
+
+.office-pref-info span {
+  color: white;
+  margin-bottom: 10px;
+}
+
+.office-pref-info span:first-child {
+  font-size: 35px;
+}
+
+.office-pref-info span:nth-child(2) {
+  font-size: 47px;
+}
+
+.office-pref-info button {
+  width: 90px;
+  height: 36px;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 5px 15px;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.185);
+
+  margin-top: 20px;
+
+  transition: background-color 300ms ease;
+}
+
+.office-pref-info button:hover {
+  cursor: pointer;
+}
+
+.office-pref-info button:active {
+  background-color: rgba(255, 255, 255, 0.384);
+}

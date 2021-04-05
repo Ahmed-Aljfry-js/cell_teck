@@ -1,0 +1,36 @@
+.plate-left-section {
+    width: 160px;
+    height: 222px;
+
+    background-color: transparent;
+    position: absolute;
+    bottom: 80px;
+    left: 70px;
+}
+
+.plate-left-section .offices-btn {
+    width: 160px;
+    height: 40px;
+
+    border: 1px solid white;
+    border-radius: 3px;
+    
+    color: white;
+    background-color: rgba(255, 255, 255, 0.219);
+
+    margin-bottom: 20px;
+
+    transition: background-color 400ms ease;
+}
+
+.plate-left-section .offices-btn:last-child {
+    margin-bottom: 0;
+}
+
+.plate-left-section .offices-btn:hover {
+    cursor: pointer;
+}
+
+.plate-left-section .offices-btn:active {
+    background-color:rgba(255, 255, 255, 0.425) ;
+}

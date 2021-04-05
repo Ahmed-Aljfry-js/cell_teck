@@ -1,0 +1,14 @@
+.search-result-levels {
+  /* border: 1px solid rgb(211, 15, 15); */
+
+  width: 318px;
+  height: 325px;
+
+  overflow: auto;
+
+  background-color: white;
+
+  padding-left: 35px;
+  padding-top: 15px;
+  padding-bottom: 4px;
+}

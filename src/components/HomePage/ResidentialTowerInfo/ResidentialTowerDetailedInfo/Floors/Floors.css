@@ -1,0 +1,40 @@
+.residential-floors
+{
+   width: 100px;
+
+   height: 500px;
+   position: absolute;
+   top: -15px;
+   right: 0px;
+   overflow: auto;
+
+}
+
+.residential-floor
+{
+   border:none;
+   border-radius: 5px;
+   color: #bbbaba;
+   background-color: transparent;
+   margin-bottom:10px ;
+   width: 100%;
+   text-align: center;
+   transition: background-color 300ms  ease;
+   transition: border 300ms  ease;
+   transition: color 300ms  ease;
+
+   padding: 5px 5px;
+ 
+}
+.residential-floor:hover
+{
+    cursor: pointer;
+}
+.residential-floor:active,
+.residential-floor:focus
+{
+    border: 1px solid white;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.452);
+    padding: 5px 5px;
+}

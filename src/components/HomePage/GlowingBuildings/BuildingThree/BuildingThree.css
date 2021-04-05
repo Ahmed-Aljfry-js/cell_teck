@@ -1,0 +1,17 @@
+.building-three {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+
+  width: 218px;
+  height: 583px;
+}
+
+.building-three-img {
+  width: 218px;
+  height: 584px;
+}
+
+.building-three:hover {
+  cursor: pointer;
+}

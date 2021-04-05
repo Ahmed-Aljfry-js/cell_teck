@@ -1,0 +1,17 @@
+.building-one {
+    position: absolute;
+    top: 70px;
+    left: 50px;
+
+    width: 360px;
+    height: 370px;
+}
+
+.building-one-img {
+    width: 353px;
+    height: 385px;
+}
+
+.building-one:hover {
+    cursor: pointer;
+}

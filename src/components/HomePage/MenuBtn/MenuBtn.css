@@ -1,0 +1,42 @@
+
+
+/* Menu Button */
+
+.menu-btn-container {
+    /* border: 1px solid red; */
+  
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  
+    margin-top: 30px;
+    padding-right: 25px;
+  }
+  
+  .menu {
+    background-color: white;
+    color: #3c6586;
+  
+    border: 0;
+  
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-sizing: border-box;
+  
+    width: 80px;
+    height: 35px;
+  
+    font-size: 15px;
+    font-weight: 500;
+  
+    transition: background-color 300ms ease;
+  }
+  
+  .menu:active {
+    background-color: rgb(206, 206, 206);
+  }
+  
+  .menu:hover {
+    cursor: pointer;
+  }
+  
